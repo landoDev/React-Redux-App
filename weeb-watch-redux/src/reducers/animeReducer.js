@@ -6,6 +6,8 @@ const initialState = {
 }
 
 export const animeReducer = (state = initialState, action) => {
+    console.log('ACTION TAKEN', action);
+    console.log('PAYLOAD', action.payload)
     switch(action.type){
         case FETCH_DATA:
             return{

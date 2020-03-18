@@ -27,11 +27,6 @@ const CardDiv = styled.div`
 
 const AnimeCard = props =>{
     return(
-        <CardDiv>
-            <h2 className="title">Title: {props.title}</h2>
-            <p className="episodes">Episodes: {props.episodes}</p>
-            <img src={props.image_url} alt="anime cover"></img>
-            <a className="link" href={props.url}>Full Details Here</a>
-        </CardDiv>
+
     )
 }
