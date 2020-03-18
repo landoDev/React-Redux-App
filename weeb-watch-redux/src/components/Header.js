@@ -14,7 +14,7 @@ const HeaderDiv = styled.div`
         margin-bottom: 2%;
         width: 50%;
         border-radius: 50%;
-        border: 2px solid black;
+        border: 5px solid black;
 
         .title-content{
             padding: 2%;
