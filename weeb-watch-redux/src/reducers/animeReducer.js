@@ -1,7 +1,18 @@
+import { FETCH_DATA } from "../actions"
+
 const initialState = {
-    anime: []
+    anime: [],
+    isFetching: false
 }
 
 export const animeReducer = (state = initialState, action) => {
-    return state;
+    switch(action.type){
+        case FETCH_DATA:
+            return{
+                ...state,
+                isFetching: true
+            }
+        default:
+            return state;
+    }
 }

@@ -33,7 +33,7 @@ const Header = () =>{
             <div className='title-bg'>
                 <div className='title-content'>
                     <h1 className='title'>Weeb Watch</h1>
-                    <p className= 'subtitle'>Click the button below to get started</p> 
+                    <p className= 'subtitle'>Click to find a new binge</p> 
                 </div>
             </div>
         </HeaderDiv>
