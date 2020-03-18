@@ -8,6 +8,7 @@ const AnimeForm = props =>{
     const handleGetData = e =>{
         e.preventDefault();
         props.getData()
+        
     }
     return(
         <>

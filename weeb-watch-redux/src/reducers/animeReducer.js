@@ -1,4 +1,4 @@
-import { FETCH_DATA } from "../actions"
+import { FETCH_DATA, UPDATE_ANIME_LIST } from "../actions"
 
 const initialState = {
     anime: [],
@@ -11,6 +11,12 @@ export const animeReducer = (state = initialState, action) => {
             return{
                 ...state,
                 isFetching: true
+            }
+        case UPDATE_ANIME_LIST:
+            return{
+                ...state,
+                anime: action.payload,
+                isFetching: false
             }
         default:
             return state;
