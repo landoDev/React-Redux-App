@@ -1,5 +1,5 @@
 const initialState = {
-    placeholder: ''
+    anime: []
 }
 
 export const animeReducer = (state = initialState, action) => {
